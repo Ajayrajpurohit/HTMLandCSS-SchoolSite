@@ -1,0 +1,99 @@
+/*---- Color Palette ----
+Smoky Black - #080708
+Blue (Crayola) - #3772FF
+Rose Madder - #DF2935
+Sunglow - #FDCA40
+Platinum - #E6E8E6
+*/
+
+
+/*---- Global Attributes ----*/
+.col-left {
+    margin-top: 60px;
+    width: 75%;
+    float: left;
+/*    border: 2px solid black;*/
+    
+}
+.col-right {
+    width: 25%;
+    float: right;
+/*    border: 2px solid black;*/
+}
+/*---- Header ----*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #080708;
+    height: 60px;
+    text-align: center;
+}
+nav a {
+    display: inline-block;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    font-size: 45px;
+    padding: 0px 50px 08px 50px;
+/*    margin-top:0px;*/
+    color: #E6E8E6;
+}
+nav a:hover {
+    background: #E6E8E6;;
+    color: #080708
+}
+
+/*---- SideNave ----*/
+.sidenav {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    background: #3772FF;
+    margin-top: 0px;
+    padding-top: 60px;
+    z-index: -1;
+}
+.sidenav a {
+    display: block;
+    text-decoration: none;
+    font-size: 30px;
+    background: #E6E8E6;
+    padding: 15px 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+.sidenav a:hover {
+    background: #FDCA40;
+    color: #080708;
+}
+
+/*---- Footer ----*/
+footer {
+    background: #E6E8E6;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+}
+footer a {
+    text-decoration: none;
+    color: #080708;
+}
+/*---- Form ----*/
+form {
+    text-align: center;
+    
+}
+input {
+    border: 2px solid green;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: left;
+    width: 40%;
+    height: 30px;
+    font-size: 20px;
+}
